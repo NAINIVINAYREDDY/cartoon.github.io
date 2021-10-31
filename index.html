@@ -1,0 +1,88 @@
+<!DOCTYPE >
+<html>
+    <head>
+        <title>panda</title>
+        <style>
+        body{
+            margin: 50px;
+            background-color: green;
+            display: flex;
+            justify-content: center;
+
+        }
+.headportion {
+  margin-top: 30px;
+  background-color:whitesmoke;
+  border-radius: 100%;
+  height: 125px;
+  position: absolute;
+  width: 150px;
+}
+.ear {
+  background-color:black;
+  border-radius: 100%;
+  height: 45px;
+  position: absolute;
+  top: -15px;
+  width: 50px;
+  z-index: -1;
+}
+.ear.left {
+  left: -12px;
+}
+.ear.right {
+  right: -12px;
+}
+
+
+.left.eye {
+  background-color:black;
+  border-radius: 100px;
+  height: 50px;
+  left: 20px;
+  position: absolute;
+  top: 22px;
+  width: 37px;
+}
+.right.eye {
+ background-color:black;
+  border-radius: 100px;
+  height: 50px;
+  left: 90px;
+  position: absolute;
+  top: 22px;
+  width: 37px;
+}
+.nose {
+  background-color:black;
+  border-radius: 50% 50% 100% 100%;
+  height: 10px;
+  left: 65px;
+  position: absolute;
+  top: 80px;
+  width: 20px;
+}
+.mouth {
+  background-color:black;
+  border-radius: 100%;
+  height: 15px;
+  left: 65px;
+  position: absolute;
+  top: 95px;
+  width: 20px;
+}
+
+        </style>
+    </head>
+    <body>
+            <div class="headportion">
+                <div class="ear-wrapper">
+                    <div class="ear left"></div>
+                    <div class="ear right"></div>
+                <div class="left eye"></div>
+                <div class="right eye"></div>
+                <div class="nose"></div>
+                <div class="mouth"></div>
+                </div>
+    </body>
+</html>
